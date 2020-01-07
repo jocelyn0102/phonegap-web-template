@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>FunFangFoundNews</title>
-</head>
-<body style="background-color: rgb(78, 71, 154);">
-<form action='${requestUri}' method='get'>
-
-<br><br><h1 align="center"><img src="https://upload.cc/i1/2020/01/06/lrNxMK.png" >
-
-
-<br><align="center"><input type='text' name='keyword' placeholder = 'keyword' size="70"/>
-<input type='submit' value='submit' />
-<br><input type='submit' value='轉換語言' />
-<marquee behavior=side direction=left ><img src="https://upload.cc/i1/2020/01/06/fmvzLn.png"></marquee>
-
-
-
-</form>
-
-
-
+    <head>
+        <!-- Configuration Start: Please customize following configuration -->
+        <title>布丁布丁吃什麼？</title>
+        <!-- Configuration End -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='style.css' rel='stylesheet' type='text/css'/>
+        <script type="text/javascript" src="cordova.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div class="content-container">
+                <img src="spin.svg" />
+                <div>
+                    <!-- Configuration Start: Please customize following configuration -->
+                    <h1>FunFangFoundNews</h1>
+                    <div class="description"><span>我不是在實驗室<br />就是在前往實驗室的路上</span></div>
+                    <!-- Configuration End -->
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+<div class="container clearfix">
+<p>
+<span class="blog-copyright">
+    <!-- Configuration Start: Please customize following configuration -->
+    © Copyright 2017 <a href="http://blog.pulipuli.info/">布丁布丁吃什麼？</a>
+    <!-- Configuration End -->
+</span>
+</p>
+</div>
+</div>
         <script type="text/javascript">
                 // device APIs are available
                 function onDeviceReady() {
@@ -37,9 +48,10 @@
                         // <!-- Configuration Start: Please customize following configuration -->
                         location.replace("http://blog.pulipuli.info/");
                         // <!-- Configuration End -->
-                    }
+                         }
                 }
                 document.addEventListener("deviceready", onDeviceReady, false);
         </script>
     </body>
+</html>
 </html>
