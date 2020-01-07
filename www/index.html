@@ -2,36 +2,30 @@
 <html>
     <head>
         <!-- Configuration Start: Please customize following configuration -->
-        <title>布丁布丁吃什麼？</title>
+        <title>FunFangFoundNews</title>
         <!-- Configuration End -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='style.css' rel='stylesheet' type='text/css'/>
         <script type="text/javascript" src="cordova.js"></script>
     </head>
-    <body>
-        <div id="content">
-            <div class="content-container">
-                <img src="spin.svg" />
-                <div>
-                    <!-- Configuration Start: Please customize following configuration -->
-                    <h1>FunFangFoundNews</h1>
-                    <div class="description"><span>我不是在實驗室<br />就是在前往實驗室的路上</span></div>
-                    <!-- Configuration End -->
-                </div>
-            </div>
-        </div>
-        <div class="footer" id="footer">
-<div class="container clearfix">
-<p>
-<span class="blog-copyright">
-    <!-- Configuration Start: Please customize following configuration -->
-    © Copyright 2017 <a href="http://blog.pulipuli.info/">布丁布丁吃什麼？</a>
-    <!-- Configuration End -->
-</span>
-</p>
-</div>
-</div>
+    style="background-image: url('https://i.imgur.com/GNm9anG.png'); background-size: 750px 550px; background-position: 5% 5%; background-repeat: no-repeat;">
+	<div
+		style="text-align: center; position: absolute; top: 50%; left: 50%; margin: -10px 0 0 -200px;">
+		<br>
+		<form action='${requestUri}' method='get'>
+			<input type='text' name='keyword' placeholder='Please enter keywords'
+				style="width: 330px; height: 23px; font-size: 13px;" /> <input
+				type='submit' value='English Search'
+				style="width: 100px; height: 30px; font-size: 12px; border: 3px white double; background-color: #C2C2FF" />
+		</form>
+		<form action='TestProject2.jsp'>
+			<br>
+			<input type='submit' value='Switch Language'
+				style="width: 120px; height: 30px; font-size: 12px; border: 3px white double; background-color: #C2C2FF" />
+		</form>
+	</div>
+
         <script type="text/javascript">
                 // device APIs are available
                 function onDeviceReady() {
